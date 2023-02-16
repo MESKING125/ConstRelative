@@ -1,62 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login">
+    android:background="#00CC99">
 
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/img"
+        />
+
+    <ImageView
+        android:layout_width="412dp"
+        android:layout_height="500dp"
+        android:background="@drawable/rectangle_background"
+        android:layout_marginTop="300dp"
+        />
 
     <TextView
+        android:layout_marginTop="300dp"
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
         android:text="Login"
-        android:textSize="30sp"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold"
+        android:textSize="20pt"
+        android:gravity="center"
+
+
+        />
+
 
     <EditText
+        android:drawableStart="@drawable/ic_baseline_person_24"
         android:id="@+id/username"
-        android:layout_width="373dp"
-        android:layout_height="43dp"
-        android:background="@drawable/input_bg"
         android:hint="Username"
-        android:inputType="text"
-        android:padding="20px"
-        app:layout_constraintHorizontal_bias="0.578"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="166dp" />
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="8dp"
+        android:background="#f8d88b" />
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="372dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/username"
+        android:layout_alignEnd="@+id/username"
+        android:padding="8dp"
+        android:background="#f8d88b"
         android:hint="Password"
-        android:inputType="textPassword"
-        android:padding="20px"
-        app:layout_constraintHorizontal_bias="0.589"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/username" />
+
+
 
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="318dp"
-        android:layout_height="43dp"
-        android:layout_margin="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_alignEnd="@+id/password"
+        android:layout_marginTop="17dp"
         android:text="Login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.291" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:background="#f3a256"/>
+</RelativeLayout>
