@@ -15,13 +15,14 @@
         />
 
     <ImageView
+        android:id="@+id/bg"
         android:layout_width="412dp"
         android:layout_height="500dp"
-        android:background="@drawable/rectangle_background"
         android:layout_marginTop="300dp"
-        />
+        android:background="@drawable/rectangle_background" />
 
     <TextView
+
         android:textColor="@color/black"
         android:layout_marginTop="300dp"
         android:id="@+id/textView"
@@ -75,5 +76,5 @@
         android:layout_alignEnd="@+id/password"
         android:layout_marginTop="17dp"
         android:text="Login"
-        android:background="#f3a256"/>
+        android:background="@color/btn"/>
 </RelativeLayout>
