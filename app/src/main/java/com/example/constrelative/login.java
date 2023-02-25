@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -33,15 +34,9 @@ public class login extends AppCompatActivity {
             public void onClick(View view) {
                 String user = username.getText().toString();
                 String pass = password.getText().toString();
-                if (username.equals("admin") &&
-                        password.equals("admin")){
-
-
-
-                    // to save our data with key and value.
-
-
-                    startActivity(new Intent(login.this, MainActivity.class));
+                if (user.equals("admin") &&
+                        pass.equals("admin")){
+                    startActivity(new Intent(login.this, MainHome.class));
                     Toast.makeText(getApplicationContext(), "Login berhasil", Toast.LENGTH_SHORT).show();
 //                    Toast.makeText(getApplicationContext(), "Sukses Login", Toast.LENGTH_SHORT).show()
                     finish();

@@ -21,7 +21,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".login"
+            android:name=".MainHome"
             android:exported="false">
 
             <meta-data
@@ -29,7 +29,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainHome"
+            android:name=".login"
             android:exported="true">
 
             <intent-filter>
