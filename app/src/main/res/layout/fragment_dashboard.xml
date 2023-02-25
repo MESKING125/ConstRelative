@@ -39,8 +39,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="Anak Muda Berbakat Berhasil Merealisasikan Impiannya"
+        android:text="@string/Judul_Cerita"
         android:textSize="30sp"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/line1"
         tools:ignore="MissingConstraints" />
 
@@ -50,7 +51,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textSize="15sp"
-        android:text="Sarah, seorang siswi SMA berusia 17 tahun, memiliki minat dan bakat dalam bidang seni. Ia sering menghabiskan waktu luangnya untuk membuat berbagai karya seni, seperti lukisan, patung, dan masih banyak lagi. Keluarganya awalnya kurang memahami dan tidak memberikan dukungan untuk Sarah, tetapi ia tidak mudah patah semangat."
+        android:text="@string/Desc_Cerita_1"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="MissingConstraints" />
 
@@ -60,7 +62,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textSize="15sp"
-        android:text="Sarah berjuang untuk mewujudkan impiannya dengan mengikuti berbagai kursus seni dan memperbanyak pengalaman dan wawasannya. Keberhasilannya dalam sebuah lomba seni nasional membuktikan bahwa minat dan bakatnya benar-benar luar biasa. Keberhasilan tersebut membuat keluarganya bangga dan membuktikan bahwa dengan tekad dan semangat yang kuat, kita bisa merealisasikan impian kita."
+        android:text="@string/Desc_Cerita_2"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:ignore="MissingConstraints" />
 
@@ -70,7 +73,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textSize="15sp"
-        android:text="Kini, Sarah sedang mempersiapkan diri untuk mengikuti lomba seni internasional. Ia berharap bisa membawa nama baik Indonesia dan menjadi inspirasi bagi anak muda lain untuk mengejar impian mereka. Sarah membuktikan bahwa minat dan bakat yang dimiliki dapat menjadi jalan menuju keberhasilan jika kita berusaha dan tidak takut untuk mengejar impian kita."
+        android:text="@string/Desc_Cerita_3"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:ignore="MissingConstraints" />
 
@@ -80,7 +84,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textSize="15sp"
-        android:text="Kecelakaan tragis ini mengingatkan kita semua akan pentingnya menjaga keselamatan saat berkendara. Kita harus selalu memperhatikan lampu lalu lintas, menjaga jarak aman, dan tidak terpengaruh oleh tingkat kelelahan atau stres. Kecelakaan seperti ini bisa terjadi kapan saja dan menimbulkan dampak yang sangat buruk, sehingga kita harus lebih waspada dan memperhatikan keselamatan berkendara."
+        android:text="@string/Desc_Cerita_4"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         tools:ignore="MissingConstraints" />
 
