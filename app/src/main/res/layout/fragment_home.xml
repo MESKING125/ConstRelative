@@ -42,6 +42,7 @@
         android:typeface="serif"
         android:text="@string/Judul_Cerita"
         android:textSize="30sp"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/line1"
         app:layout_constraintStart_toStartOf="parent"
         />
@@ -55,6 +56,7 @@
         android:typeface="serif"
         android:textSize="15sp"
         android:text="@string/Desc_Cerita_1"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
         />
@@ -68,6 +70,7 @@
         android:typeface="serif"
         android:textSize="15sp"
         android:text="@string/Desc_Cerita_2"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintStart_toStartOf="parent"
         />
@@ -81,6 +84,7 @@
         android:typeface="serif"
         android:textSize="15sp"
         android:text="@string/Desc_Cerita_3"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="parent"
         />
@@ -94,6 +98,7 @@
         android:typeface="serif"
         android:textSize="15sp"
         android:text="@string/Desc_Cerita_4"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:layout_constraintStart_toStartOf="parent"
         />
