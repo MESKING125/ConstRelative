@@ -4,4 +4,9 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="Judul_Cerita">Kecelakaan Tragis Terjadi di Jalan Raya</string>
+    <string name="Desc_Cerita_1">Kemarin malam, sebuah kecelakaan tragis terjadi di jalan raya X. Kecelakaan tersebut melibatkan dua mobil yang saling bertabrakan dengan keras. Akibat kecelakaan, salah satu pengemudi mengalami luka serius dan harus dibawa ke rumah sakit.</string>
+    <string name="Desc_Cerita_2">Petugas dari dinas kesehatan dan polisi segera menuju lokasi kejadian setelah menerima laporan. Mereka melakukan penanganan dan pemeriksaan terhadap korban dan juga melakukan pengumpulan bukti untuk menyelidiki penyebab kecelakaan.</string>
+    <string name="Desc_Cerita_3">Menurut saksi mata, kecelakaan terjadi karena pengemudi salah satu mobil tidak memperhatikan lampu merah dan langsung melaju. Polisi masih melakukan investigasi lebih lanjut dan berkoordinasi dengan pihak rumah sakit untuk mengetahui kondisi korban.</string>
+    <string name="Desc_Cerita_4">Kecelakaan tragis ini mengingatkan kita semua akan pentingnya menjaga keselamatan saat berkendara. Kita harus selalu memperhatikan lampu lalu lintas, menjaga jarak aman, dan tidak terpengaruh oleh tingkat kelelahan atau stres. Kecelakaan seperti ini bisa terjadi kapan saja dan menimbulkan dampak yang sangat buruk, sehingga kita harus lebih waspada dan memperhatikan keselamatan berkendara.</string>
 </resources>
